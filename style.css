@@ -9,13 +9,13 @@ body{
   --bright-color: #FFFFFFEE;
   color: var(--main-color);
   font-family: 'Rubik', sans-serif;
-  overflow-x:hidden;
 }
 header{
   display:flex;
   flex-direction:column;
   justify-content:center;
   align-items:center;
+  overflow-x:hidden;
 }
 .centered{
   display:flex;
@@ -173,6 +173,11 @@ a:focus{
   }
   .project-tile{
     display:flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
     flex-direction: column;
     margin: 5px;
   }
@@ -197,6 +202,11 @@ a:focus{
   }
   .contact-info{
     display:flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
     flex-direction:column;
   }
 }
