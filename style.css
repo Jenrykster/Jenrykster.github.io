@@ -167,6 +167,7 @@ a:focus{
     display: -ms-flexbox;
     display: -moz-flex;
     display: -webkit-flex;
+    flex: 0 1 auto;
   }
   .project-tile img{
     width: 100%;
@@ -182,6 +183,7 @@ a:focus{
     flex-direction: column;
     margin: 5px;
     min-height: 400px;
+    flex: 0 1 auto;
   }
   .project-tile p{
     margin-top:30px;
