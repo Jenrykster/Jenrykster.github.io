@@ -9,6 +9,7 @@ body{
   --bright-color: #FFFFFFEE;
   color: var(--main-color);
   font-family: 'Rubik', sans-serif;
+  overflow-x:hidden;
 }
 header{
   display:flex;
