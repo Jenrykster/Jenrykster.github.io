@@ -2,6 +2,9 @@
 html {
   scroll-behavior: smooth;
 }
+main{
+  overflow-x:hidden;
+}
 body{
   margin:0px;
   background-color:black;
@@ -182,7 +185,6 @@ a:focus{
     display: -webkit-flex;
     flex-direction: column;
     margin: 5px;
-    min-height: 400px;
     flex: 0 1 auto;
   }
   .project-tile p{
