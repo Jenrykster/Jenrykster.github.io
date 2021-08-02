@@ -121,7 +121,7 @@ a:focus{
   grid-template-columns: 1fr 1fr ;
   grid-template-rows: 1fr 1fr 1fr;
   margin: 0px 30px 0px 30px;
-  grid-gap: 10px;
+  grid-gap: 20px;
 }
 
 .project-tile{
@@ -134,7 +134,7 @@ a:focus{
 }
 .project-tile img{
   width:320px;
-  height:180px;
+  min-height:180px;
   border: 1px solid var(--bright-color)
 }
 
@@ -152,6 +152,9 @@ a:focus{
   margin: 10px;
 }
 @media(max-width:750px){
+  #navbar{
+    position: static;
+  }
   #projects-container{
     grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns:1fr;
