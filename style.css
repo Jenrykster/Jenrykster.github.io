@@ -156,6 +156,9 @@ a:focus{
   margin: 10px;
 }
 @media(max-width:750px){
+  main{
+    overflow-x: hidden;
+  }
   #navbar{
     position: static;
   }
